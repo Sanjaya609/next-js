@@ -1,0 +1,23 @@
+.wrapper{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+@media(min-width:760px){
+  .wrapper{
+    flex-direction:row;
+    overflow:hidden;
+  }
+}
+
+.container{
+  width: 100%;
+  flex: none;
+}
+
+@media(min-width:760px) {
+ .container {
+     width: 256px;
+    }
+}
